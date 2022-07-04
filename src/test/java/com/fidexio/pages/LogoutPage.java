@@ -27,4 +27,7 @@ public class LogoutPage {
 
     @FindBy(xpath = "(//ul[@class='dropdown-menu'])[2]/li[6]/a")
     public WebElement menuOption5;
+
+    @FindBy(xpath = "//div[@class='o_dialog_warning modal-body']")
+    public WebElement stepBackWarning;
 }
