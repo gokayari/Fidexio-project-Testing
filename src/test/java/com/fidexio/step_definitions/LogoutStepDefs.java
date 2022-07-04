@@ -24,5 +24,10 @@ public class LogoutStepDefs {
         Assert.assertEquals(string5, logoutPage.menuOption5.getText());
     }
 
+    @When("User clicks Log out button")
+    public void user_clicks_log_out_button() {
+        logoutPage.menuOption5.click();
+    }
+
 
 }
