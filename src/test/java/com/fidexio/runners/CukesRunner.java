@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",
         dryRun = false,
-        tags = "@FIDEX-390",
+        tags = "@FIDEX-423",
         publish = true
 )
 
